@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Crush</title>
+    <link rel="stylesheet" href="./css/game4.css">
+</head>
+<body>
+    <h1>Score : <span id="score">0</span></h1>
+    <div id="board"></div>
+
+    <script src="./js/game4.js"></script>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>
+    window.botpressWebChat.init({
+        "composerPlaceholder": "WRITE HERE .",
+        "botConversationDescription": "HERE TO HELP",
+        "botId": "7fdf6228-254b-4a4b-8ad4-d998b28bbfbe",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "7fdf6228-254b-4a4b-8ad4-d998b28bbfbe",
+        "webhookId": "69352dea-1aae-45f1-a119-e959c83bb827",
+        "lazySocket": true,
+        "themeName": "prism",
+        "botName": "INSIGHT",
+        "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/453538f7-8ed1-481c-ae04-ed524a51491a/v26480/style.css",
+        "frontendVersion": "v1",
+        "useSessionStorage": true,
+        "showBotInfoPage": true,
+        "enableConversationDeletion": true,
+        "theme": "prism",
+        "themeColor": "#2563eb"
+    });
+    </script>
+</body>
+</html>
